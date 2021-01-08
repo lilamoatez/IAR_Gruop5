@@ -1,4 +1,4 @@
-# Une méta-heuristique hybride pour une meilleure localisation des nœudsdans les RCSFs
+# A hybrid meta-heuristic for better localization of nodes in RCSFs
 # Created by Group 5 
 # The description :
    In the field of the wireless sensor network, more precisely the location of the sensor, when we disperse the sensors in an environment, in any application (agriculture, forest fires, military, medicine, security, etc.), it is necessary to know the location of the sensors, because without knowing the location of the sensor we cannot know where the event was captured, and to know the location, there are several methods, in particular meta-aristics

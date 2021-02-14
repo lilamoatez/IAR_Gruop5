@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="GanttProjet" webLink="http://www.ganttprojet.bz" view-date="2021-02-07" view-index="0" gantt-divider-location="300" resource-divider-location="385" version="3.0.3000" locale="en">
+    <description>
+        <![CDATA[This is a ganttproject tutorial.]]>
+    </description>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Name" width="167" order="0"/>
+        <field id="tpd4" name="Begin date" width="65" order="1"/>
+        <field id="tpd5" name="End date" width="64" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="213" order="0"/>
+        <field id="1" name="Default role" width="168" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="26" name="Understand the subject" color="#8cb6ce" meeting="false" start="2021-02-09" duration="1" complete="0" thirdDate="2021-02-09" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[General research on the subject and the research field]]>
+            </notes>
+        </task>
+        <task id="27" name="Réunion 1" color="#8cb6ce" meeting="false" start="2021-02-11" duration="1" complete="0" thirdDate="2021-02-09" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[1st meeting with supervisor:
+The teacher delivers the basic tasks and steps of the project and the secondary tasks]]>
+            </notes>
+        </task>
+        <task id="28" name="Application 1" color="#8cb6ce" meeting="false" start="2021-02-11" duration="7" complete="0" thirdDate="2021-02-09" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Divide the tasks into parts and complete each part separately until the task is complete]]>
+            </notes>
+        </task>
+        <task id="29" name="Reunion 2" color="#8cb6ce" meeting="false" start="2021-02-19" duration="1" complete="0" thirdDate="2021-02-09" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[The teacher corrects the attempt and adds homework and so on]]>
+            </notes>
+        </task>
+        <task id="30" name="Application 2" color="#8cb6ce" meeting="false" start="2021-02-19" duration="7" complete="0" thirdDate="2021-02-09" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Correct errors in the project as instructed by the teacher and add other tasks]]>
+            </notes>
+        </task>
+        <task id="31" name="Reunion 3" color="#8cb6ce" meeting="false" start="2021-03-04" duration="1" complete="0" thirdDate="2021-02-09" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Correct errors, add tasks and present problems to the teacher]]>
+            </notes>
+        </task>
+        <task id="32" name="Application 3" color="#8cb6ce" meeting="false" start="2021-03-05" duration="7" complete="0" thirdDate="2021-02-09" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Correction and addition of tasks, special additions]]>
+            </notes>
+        </task>
+        <task id="33" name="Réunion 4" color="#8cb6ce" meeting="false" start="2021-03-17" duration="1" complete="0" thirdDate="2021-02-09" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[About diction and the content of diction]]>
+            </notes>
+        </task>
+        <task id="34" name="Application 4" color="#8cb6ce" meeting="false" start="2021-03-18" duration="7" complete="0" thirdDate="2021-02-09" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Do the diction work and experiment with diction]]>
+            </notes>
+        </task>
+        <task id="47" name="Réuninio 5" color="#8cb6ce" meeting="false" start="2021-03-29" duration="7" complete="0" thirdDate="2021-02-08" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Experiment with diction with a teacher and general tips on diction]]>
+            </notes>
+        </task>
+        <task id="49" name="Application 5" color="#8cb6ce" meeting="false" start="2021-02-08" duration="1" complete="0" thirdDate="2021-02-08" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Add the finishing touch]]>
+            </notes>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Mark portnel" function="Default:1" contacts="m@mail.com" phone="123456789"/>
+    </resources>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="Documentation manager"/>
+    </roles>
+</project>
